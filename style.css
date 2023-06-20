@@ -1,0 +1,21 @@
+@import url('./src/fonts/fonts.css');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: aqua;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*Fonts*/
+@font-face {
+  font-family: 'Eloquia';
+  src: url('/src/fonts/Typekiln\ -\ EloquiaDisplay-ExtraBold.otf');
+}
