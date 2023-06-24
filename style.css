@@ -6,16 +6,268 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
+  font-size: 62.5%;
 }
 body {
   display: flex;
   flex-direction: column;
-  background-color: aqua;
   font-family: 'Poppins', sans-serif;
 }
 
-/*Fonts*/
-@font-face {
-  font-family: 'Eloquia';
-  src: url('/src/fonts/Typekiln\ -\ EloquiaDisplay-ExtraBold.otf');
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.global-container {
+  padding: 0 9%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*navbar----*/
+.section-navbar {
+  display: flex;
+  height: 7rem;
+  width: 100%;
+  margin-top: 1rem;
+
+  .logo-portafolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+  }
+
+  .logo-portafolio img {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .name-ocupation {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+  }
+  .name {
+    font-size: 1.8rem;
+    font-weight: 700;
+  }
+  .ocupation {
+    position: relative;
+    font-size: 1.3rem;
+    top: -0.4rem;
+    font-weight: 500;
+  }
+
+  .nabvar-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 33.3%;
+  }
+  .options {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    font-size: 1.4rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .lets-talk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.3%;
+  }
+
+  .button-lets-talk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    height: 4rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: hsl(214, 7%, 60%);
+    cursor: pointer;
+  }
+
+  .button-lets-talk:hover {
+    background-color: #8773ee;
+    transition: 200ms;
+    color: white;
+  }
+
+  .button-lets-talk img {
+    width: 2rem;
+    margin-right: 0.7rem;
+  }
+}
+
+/*Header----*/
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-top: 4rem;
+
+  .data-header {
+    width: 45%;
+  }
+
+  .text-welcome {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header-welcome {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .header-ocupation {
+    font-size: 4.5rem;
+    font-weight: 700;
+  }
+
+  .ocupation {
+    position: relative;
+    top: -2rem;
+  }
+
+  .hire-me-button {
+    display: flex;
+    align-items: center;
+  }
+  .button-hire-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8773ee;
+    border: none;
+    height: 5.5rem;
+    width: 13rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    color: white;
+    box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.315);
+  }
+
+  .button-hire-me:hover {
+    background-color: #6e57e4;
+    cursor: pointer;
+    transition: 200ms;
+  }
+
+  .mail-icon {
+    width: 2rem;
+    margin-right: 1rem;
+  }
+
+  .see-my-portafolio {
+    font-size: 1.4rem;
+    margin-left: 4rem;
+    text-decoration: underline;
+  }
+
+  .bullet-point {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-right: 1.3rem;
+  }
+
+  .experience-resume {
+    width: 35rem;
+    display: flex;
+    padding: 6rem 0 0 7rem;
+    font-size: 1.4rem;
+  }
+
+  .follow-me-content {
+    width: 40%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5rem;
+    display: flex;
+  }
+  .follow-me {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: rgb(48, 48, 48);
+    padding-right: 1rem;
+  }
+
+  .circle-network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(9, 0, 63, 0.062);
+    padding: 1rem;
+    border-radius: 100%;
+  }
+  .social-network-icon {
+    width: auto;
+    height: 2rem;
+  }
+
+  .experience-header {
+    display: flex;
+    align-items: center;
+    width: 55%;
+  }
+
+  .me {
+    position: relative;
+    height: 45rem;
+    width: auto;
+  }
+
+  .resume-numbers {
+    display: flex;
+    height: 35rem;
+    width: 30rem;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: end;
+  }
+
+  .content-number-experience {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  .number {
+    font-size: 4rem;
+  }
+
+  .text-number {
+    font-size: 1.4rem;
+  }
+
+  .background-numbers {
+    position: absolute;
+    right: 0rem;
+    min-width: 45%;
+    height: 40rem;
+    background-color: rgba(9, 0, 63, 0.062);
+  }
 }

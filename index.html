@@ -9,19 +9,31 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
+    <!--NAVBAR SECTION-->
     <section class="section-navbar">
       <div class="logo-portafolio">
         <img src="./src/img/logo.png" alt="logo-image" />
-        <span class="name">Roberth</span>
-        <span class="ocupation">Web development</span>
+        <div class="name-ocupation">
+          <span class="name">Roberth</span>
+          <span class="ocupation">Backend development</span>
+        </div>
       </div>
-
-      <ul>
-        <li>Sobre mí</li>
-        <li>Servicios</li>
-        <li>Experiencia</li>
-        <li>Testimonios</li>
-      </ul>
+      <div class="nabvar-options">
+        <ul class="options">
+          <li>
+            <a href="">Sobre mí</a>
+          </li>
+          <li>
+            <a href="">Servicios</a>
+          </li>
+          <li>
+            <a href="">Experiencia</a>
+          </li>
+          <li>
+            <a href="">Testimonios</a>
+          </li>
+        </ul>
+      </div>
 
       <div class="lets-talk">
         <div class="button-lets-talk">
@@ -30,5 +42,79 @@
         </div>
       </div>
     </section>
+
+    <!--HEADER SECTION-->
+    <div class="global-container">
+      <section class="section-header global-container">
+        <div class="data-header">
+          <div class="text-welcome">
+            <span class="header-welcome">Hola! bienvenido</span>
+            <span class="header-ocupation">Yo soy Roberth</span>
+            <h1 class="header-ocupation ocupation">Desarrollador Web</h1>
+          </div>
+
+          <div class="hire-me">
+            <div class="hire-me-button">
+              <button class="button-hire-me">
+                <img src="./src/img/mail-icon.png" class="mail-icon" alt="" />
+                Contrátame
+              </button>
+              <a class="see-my-portafolio" href="">Mira mi Portafolio</a>
+            </div>
+
+            <div class="experience-resume">
+              <img
+                src="./src/img/bullet-point.png"
+                class="bullet-point"
+                alt=""
+              />
+              <p>
+                En proceso de aprendizaje de tecnologias de RESTAPI como Express
+                o NEST
+              </p>
+            </div>
+            <div class="follow-me-content">
+              <p class="follow-me">Sigueme:</p>
+              <div class="circle-network">
+                <img
+                  src="./src/img/instagram-logo.png"
+                  class="social-network-icon"
+                  alt=""
+                />
+              </div>
+              <div class="circle-network">
+                <img
+                  src="./src/img/github-logo.png"
+                  class="social-network-icon"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="experience-header">
+          <div class="background-numbers"></div>
+          <img src="./src/img/me.png" class="me" alt="" />
+
+          <div class="resume-numbers">
+            <div class="content-number-experience">
+              <h2 class="number">1+</h2>
+              <p class="text-number">Años de experiencia</p>
+            </div>
+
+            <div class="content-number-experience">
+              <h2 class="number">1+</h2>
+              <p class="text-number">Años de experiencia</p>
+            </div>
+
+            <div class="content-number-experience">
+              <h2 class="number">10+</h2>
+              <p class="text-number">Proyectos completados</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
