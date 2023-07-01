@@ -1,5 +1,9 @@
 @import url('./src/fonts/fonts.css');
 
+.margin-inferior {
+  padding: 10rem;
+}
+
 html,
 body {
   margin: 0;
@@ -270,4 +274,113 @@ a {
     height: 40rem;
     background-color: rgba(9, 0, 63, 0.062);
   }
+}
+
+/*What I do Help*/
+.section-what-do-i-help {
+  margin: 5% 9%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  .h2-what-do-i-help {
+    font-size: 3.7rem;
+    text-align: center;
+    margin: 2rem 0;
+  }
+  .text-description {
+    font-size: 1.4rem;
+    width: 60rem;
+    text-align: center;
+    line-height: 2.5rem;
+  }
+}
+
+/*SKILLS*/
+
+.section-skills {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f8fc;
+  width: 60%;
+  border-radius: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.card-skill:hover {
+  transition: 100ms;
+  background-color: #f3f6fd;
+  cursor: pointer;
+}
+
+.card-skill:active {
+  transition: 100ms;
+  background-color: #e8efff;
+}
+
+.internal-padding-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 90%;
+  margin: 2rem 0;
+}
+
+.internal-padding-card img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.title-card {
+  font-size: 2.5rem;
+  color: #8775e2;
+}
+
+.card-description {
+  font-size: 1.3rem;
+  width: 35rem;
+}
+
+.button-see-all-proyects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16rem;
+  height: 5.3rem;
+  background-color: #8d79f0;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 1.5rem;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.164);
+
+}
+
+.button-see-all-proyects:hover {
+  background-color: #7d69e2;
+  cursor: pointer;
+  transition: 200ms;
+}
+
+.button-see-all-proyects:active {
+  background-color: #6954d4;
+  cursor: pointer;
+  transition: 100ms;
+}
+
+.button-see-all-proyects img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.8rem;
 }
