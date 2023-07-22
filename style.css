@@ -40,10 +40,13 @@ a {
 }
 /*navbar----*/
 .section-navbar {
+    position: fixed;
+    z-index: 9999;
     display: flex;
-    height: 7rem;
+    height: 5rem;
     width: 100%;
-    margin-top: 1rem;
+    padding: 1rem;
+    background-color: white;
 
     .logo-portafolio {
         display: flex;
@@ -129,7 +132,7 @@ a {
 .section-header {
     display: flex;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 9rem;
 
     .data-header {
         width: 45%;
@@ -226,7 +229,14 @@ a {
         background-color: rgba(9, 0, 63, 0.062);
         padding: 1rem;
         border-radius: 100%;
+        cursor: pointer;
     }
+
+    .circle-network:hover {
+        transition: 200ms;
+        background-color: rgba(9, 0, 63, 0.164);
+    }
+
     .social-network-icon {
         width: auto;
         height: 2rem;
@@ -318,7 +328,7 @@ a {
 }
 
 .card-skill:hover {
-    transition: 100ms;
+    transition: 200ms;
     background-color: #e8edf7;
     cursor: pointer;
 }
@@ -420,10 +430,10 @@ a {
 }
 
 .footer-networks {
-  padding-bottom: 4.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    padding-bottom: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #12151d;
 }
 
@@ -432,8 +442,15 @@ a {
     font-size: 1.5rem;
 }
 
-.footer-networks a{
-  color: white;
-  font-size: 1.5rem;
-  margin-left: 3rem;
- }
+.footer-networks a {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
+
+.footer-networks a:hover {
+    transition: 200ms;
+    color: #6954d4;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+}
