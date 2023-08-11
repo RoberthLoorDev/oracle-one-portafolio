@@ -454,3 +454,69 @@ a {
     font-size: 1.5rem;
     margin-left: 3rem;
 }
+
+/*About me*/
+.content-aboutme {
+    height: 100%;
+}
+.image-text-about-me {
+
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 90rem;
+    max-height: auto;
+    background-color: #4f38c5;
+    border-radius: 10px;
+}
+
+.image-text-about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-about-me {
+    width: 40rem;
+    min-height: 100%;
+    box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.205);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.text-about-me {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    color: white;
+}
+
+.text-about-me h1 {
+    font-size: 4.5rem;
+    margin-bottom: -1.3rem;
+}
+
+.ocupation-about-me {
+    font-weight: 500;
+    font-size: 1.8rem;
+    margin: 2rem;
+}
+
+.text-about-me p {
+    font-size: 1.3rem;
+}
+
+.context-experiencie {
+    background-color: #8d79f0;
+}
+.context-experiencie {
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.selected-page{
+    background-color: #8d79f0c0;
+    padding: .5rem 1rem;
+    color: white;
+    border-radius: 5px;
+}
