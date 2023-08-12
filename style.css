@@ -30,6 +30,7 @@ span {
 
 a {
     text-decoration: none;
+    color: #30323a;
 }
 
 .global-container {
@@ -466,7 +467,7 @@ a {
     display: flex;
     width: 90rem;
     max-height: auto;
-    background-color: #4f38c5;
+    background-color:#30323a;
     border-radius: 10px;
 }
 
